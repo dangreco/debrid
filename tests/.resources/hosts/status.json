@@ -1,0 +1,71 @@
+{
+    "example0.com": {
+        "id": "e0",
+        "name": "example0",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100",
+        "supported": 1,
+        "status": "up",
+        "check_time": "2024-09-27T15:53:09.000Z",
+        "competitors_status": {
+            "competitor0.com": {
+                "status": "up",
+                "check_time": "2024-09-27T15:53:12.000Z"
+            },
+            "competitor1.com": {
+                "status": "down",
+                "check_time": "2017-11-28T23:49:55.000Z"
+            },
+            "competitor2.com": {
+                "status": "down",
+                "check_time": "2024-09-27T15:53:09.000Z"
+            }
+        }
+    },
+    "example1.com": {
+        "id": "e1",
+        "name": "example1",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100",
+        "supported": 1,
+        "status": "up",
+        "check_time": "2024-09-27T15:53:14.000Z",
+        "competitors_status": {
+            "competitor3.com": {
+                "status": "up",
+                "check_time": "2024-09-27T15:53:15.000Z"
+            },
+            "competitor4.com": {
+                "status": "down",
+                "check_time": "2017-11-28T23:49:59.000Z"
+            },
+            "competitor5.com": {
+                "status": "down",
+                "check_time": "2024-09-27T15:53:12.000Z"
+            }
+        }
+    },
+    "example2.com": {
+        "id": "e2",
+        "name": "example2",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100",
+        "supported": 0,
+        "status": "down",
+        "check_time": "2024-09-27T15:53:15.000Z",
+        "competitors_status": {
+            "competitor6.com": {
+                "status": "down",
+                "check_time": "2024-09-27T15:54:15.000Z"
+            },
+            "competitor7.com": {
+                "status": "down",
+                "check_time": "2017-11-28T23:50:00.000Z"
+            },
+            "competitor8.com": {
+                "status": "down",
+                "check_time": "2024-09-27T15:53:15.000Z"
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "c39fe3eefbdb62da9c27eb6398ff4a7d2e26e7ab": {
+        "rd": [
+            {
+                "1": {
+                    "filename": "README.txt",
+                    "filesize": 71
+                }
+            },
+            {
+                "1": {
+                    "filename": "README.txt",
+                    "filesize": 71
+                },
+                "2": {
+                    "filename": "Big.Buck.Bunny.BDRip.XviD-MEDiC.(www.USABIT.com).avi",
+                    "filesize": 183567938
+                },
+                "3": {
+                    "filename": "source.txt",
+                    "filesize": 48
+                }
+            },
+            {
+                "2": {
+                    "filename": "Big.Buck.Bunny.BDRip.XviD-MEDiC.(www.USABIT.com).avi",
+                    "filesize": 183567938
+                }
+            }
+        ]
+    }
+}

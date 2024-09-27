@@ -1,0 +1,54 @@
+{
+	"download_ports": [
+		"normal",
+		"secured"
+	],
+	"download_port": "secured",
+	"download_protocols": [
+		"IPv4+IPv6",
+		"IPv4",
+		"IPv6"
+	],
+	"download_protocol": "IPv4",
+	"locales": {
+		"fr": "Français (France)",
+		"en": "English (US)",
+		"es": "Español",
+		"it": "Italiano",
+		"de": "Deutsch",
+		"ar": "العربية",
+		"pt": "Português",
+		"ptb": "Português (Brasil)",
+		"tr": "Türkçe",
+		"nl": "Dutch",
+		"ir": "Persian (Farsi)",
+		"cnt": "繁體中文",
+		"cns": "简体中文",
+		"pl": "Polish",
+		"id": "Indonesian",
+		"hr": "Croatian",
+		"ru": "Russian",
+		"ro": "Romanian"
+	},
+	"locale": "en",
+	"streaming_qualities": [
+		"original",
+		"high",
+		"medium",
+		"low"
+	],
+	"streaming_quality": "original",
+	"mobile_streaming_quality": "original",
+	"streaming_languages": {
+		"fre": "Français",
+		"eng": "English",
+		"ita": "Italiano",
+		"esp": "Español"
+	},
+	"streaming_language_preference": "eng",
+	"streaming_cast_audio": [
+		"aac",
+		"dolby"
+	],
+	"streaming_cast_audio_preference": "aac"
+}

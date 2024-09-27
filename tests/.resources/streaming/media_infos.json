@@ -1,0 +1,41 @@
+{
+    "filename": "Rick Astley - Never Gonna Give You Up",
+    "hoster": "yt",
+    "link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+    "type": "audio",
+    "season": null,
+    "episode": null,
+    "year": null,
+    "duration": 212.140408,
+    "bitrate": 128020,
+    "size": 3394801,
+    "details": {
+        "video": [],
+        "audio": {
+            "und1": {
+                "stream": "0:0",
+                "lang": "Unknown",
+                "lang_iso": "und",
+                "codec": "mp3",
+                "sampling": 44100,
+                "channels": 2
+            }
+        },
+        "subtitles": []
+    },
+    "backdrop_path": "https:\/\/lastfm.freetls.fastly.net\/i\/u\/ar0\/92c372883f05137bb7c6e9ec49afe403.jpg",
+    "poster_path": "\/static\/images\/dummy_user1_48@2x.55894782493f.png",
+    "audio_image": "\/static\/images\/dummy_user1_48@2x.55894782493f.png",
+    "baseUrl": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/eng1\/none\/aac\/full",
+    "availableFormats": {
+        "apple": "m3u8",
+        "dash": "mpd",
+        "liveMP4": "mp4",
+        "h264WebM": "webm"
+    },
+    "availableQualities": {
+        "Original": "full"
+    },
+    "modelUrl": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/{audio}\/{subtitles}\/{audioCodec}\/{quality}.{format}",
+    "host": "example.com"
+}

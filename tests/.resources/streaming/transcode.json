@@ -1,0 +1,14 @@
+{
+	"apple": {
+		"full": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/eng1\/none\/aac\/full.m3u8"
+	},
+	"dash": {
+		"full": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/eng1\/none\/aac\/full.mpd"
+	},
+	"liveMP4": {
+		"full": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/eng1\/none\/aac\/full.mp4"
+	},
+	"h264WebM": {
+		"full": "https:\/\/example.com\/t\/ABCDEFGHIJKLMNO\/eng1\/none\/aac\/full.webm"
+	}
+}

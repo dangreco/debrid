@@ -1,0 +1,6 @@
+[
+    {
+        "host": "example.com",
+        "max_file_size": 2000
+    }
+]

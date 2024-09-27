@@ -1,0 +1,72 @@
+[
+	{
+		"id": "ABCDEFGHIJKLMNO",
+		"filename": "Rick Astley - Never Gonna Give You Up (Official Music Video).mp3",
+		"mimeType": "audio\/mpeg",
+		"filesize": 0,
+		"link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+		"host": "youtube.com",
+		"host_icon": "https:\/\/fcdn.real-debrid.com\/0830\/images\/hosters\/youtube.png",
+		"chunks": 32,
+		"download": "https:\/\/example.com\/d\/ABCDEFGHIJKLMNO\/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Music%20Video%29.mp3",
+		"streamable": 1,
+		"generated": "2024-09-27T08:29:36.000Z",
+		"type": "mp3"
+	},
+	{
+		"id": "ABCDEFGHIJKLMNO",
+		"filename": "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4",
+		"mimeType": "video\/mp4",
+		"filesize": 0,
+		"link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+		"host": "youtube.com",
+		"host_icon": "https:\/\/fcdn.real-debrid.com\/0830\/images\/hosters\/youtube.png",
+		"chunks": 32,
+		"download": "https:\/\/example.com\/d\/ABCDEFGHIJKLMNO\/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Music%20Video%29.mp4",
+		"streamable": 1,
+		"generated": "2024-09-27T08:29:36.000Z",
+		"type": "426x240"
+	},
+	{
+		"id": "ABCDEFGHIJKLMNO",
+		"filename": "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4",
+		"mimeType": "video\/mp4",
+		"filesize": 0,
+		"link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+		"host": "youtube.com",
+		"host_icon": "https:\/\/fcdn.real-debrid.com\/0830\/images\/hosters\/youtube.png",
+		"chunks": 32,
+		"download": "https:\/\/example.com\/d\/ABCDEFGHIJKLMNO\/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Music%20Video%29.mp4",
+		"streamable": 1,
+		"generated": "2024-09-27T08:29:36.000Z",
+		"type": "640x360"
+	},
+	{
+		"id": "ABCDEFGHIJKLMNO",
+		"filename": "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4",
+		"mimeType": "video\/mp4",
+		"filesize": 0,
+		"link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+		"host": "youtube.com",
+		"host_icon": "https:\/\/fcdn.real-debrid.com\/0830\/images\/hosters\/youtube.png",
+		"chunks": 32,
+		"download": "https:\/\/example.com\/d\/ABCDEFGHIJKLMNO\/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Music%20Video%29.mp4",
+		"streamable": 1,
+		"generated": "2024-09-27T08:29:36.000Z",
+		"type": "854x480"
+	},
+	{
+		"id": "ABCDEFGHIJKLMNO",
+		"filename": "Rick Astley - Never Gonna Give You Up (Official Music Video).mp4",
+		"mimeType": "video\/mp4",
+		"filesize": 0,
+		"link": "https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ",
+		"host": "youtube.com",
+		"host_icon": "https:\/\/fcdn.real-debrid.com\/0830\/images\/hosters\/youtube.png",
+		"chunks": 32,
+		"download": "https:\/\/example.com\/d\/ABCDEFGHIJKLMNO\/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%28Official%20Music%20Video%29.mp4",
+		"streamable": 1,
+		"generated": "2024-09-27T08:29:36.000Z",
+		"type": "1280x720"
+	}
+]

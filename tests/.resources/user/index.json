@@ -1,0 +1,11 @@
+{
+    "id": 12345678,
+    "username": "foobar",
+    "email": "foo******@example.com",
+    "points": 800,
+    "locale": "en",
+    "avatar": "https:\/\/fcdn.real-debrid.com\/images\/forum\/empty.png",
+    "type": "premium",
+    "premium": 1234567,
+    "expiration": "2030-01-01T00:00:00.000Z"
+}

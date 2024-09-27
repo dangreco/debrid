@@ -1,0 +1,5 @@
+[
+    "\/(http|https):\\\/\\\/(docs|drive)\\.google\\.com\\\/drive\\\/folders\\\/([^( |\"|'|>|<|\\r\\n\\|\\r|\\n|:|$)]+)\/",
+    "\/(http|https):\\\/\\\/(docs|drive)\\.google\\.com\\\/drive\\\/u\\\/[0-9]+\\\/folders\\\/([^( |\"|'|>|<|\\r\\n\\|\\r|\\n|:|$)]+)\/",
+    "\/(http|https):\\\/\\\/(docs|drive)\\.google\\.com\\\/drive\\\/mobile\\\/folders\\\/([^( |\"|'|>|<|\\r\\n\\|\\r|\\n|:|$)]+)\/"
+]

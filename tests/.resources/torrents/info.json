@@ -1,0 +1,37 @@
+{
+    "id": "ABCDEFGHIJKLM",
+    "filename": "Big.Buck.Bunny.BDRip.XviD-MEDiC.(www.USABIT.com).avi",
+    "original_filename": "Big.Buck.Bunny.BDRip.XviD-MEDiC.(www.USABIT.com).avi",
+    "hash": "c39fe3eefbdb62da9c27eb6398ff4a7d2e26e7ab",
+    "bytes": 183567938,
+    "original_bytes": 183567938,
+    "host": "example.com",
+    "split": 2000,
+    "progress": 100,
+    "status": "downloaded",
+    "added": "2024-09-27T09:25:11.000Z",
+    "files": [
+        {
+            "id": 1,
+            "path": "\/README.txt",
+            "bytes": 71,
+            "selected": 0
+        },
+        {
+            "id": 2,
+            "path": "\/Big.Buck.Bunny.BDRip.XviD-MEDiC.(www.USABIT.com).avi",
+            "bytes": 253332230,
+            "selected": 1
+        },
+        {
+            "id": 3,
+            "path": "\/source.txt",
+            "bytes": 48,
+            "selected": 0
+        }
+    ],
+    "links": [
+        "https:\/\/example.com\/d\/ABCDEFGHIJKLMNOP"
+    ],
+    "ended": "2024-09-22T06:15:21.000Z"
+}

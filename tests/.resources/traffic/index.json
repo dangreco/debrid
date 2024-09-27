@@ -1,0 +1,33 @@
+{
+    "example0.com": {
+        "left": 5368709120,
+        "bytes": 0,
+        "links": 0,
+        "limit": 5,
+        "type": "gigabytes",
+        "extra": 0,
+        "reset": "daily"
+    },
+    "example1.com": {
+        "left": 5,
+        "bytes": 0,
+        "links": 0,
+        "limit": 5,
+        "type": "links",
+        "extra": 0,
+        "reset": "daily"
+    },
+    "example3.com": {
+        "left": 5368709120,
+        "bytes": 0,
+        "links": 0,
+        "limit": 5,
+        "type": "gigabytes",
+        "extra": 0,
+        "reset": "daily"
+    },
+    "example4.com": {
+        "left": 0,
+        "type": "bytes"
+    }
+}

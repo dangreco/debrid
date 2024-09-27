@@ -1,0 +1,20 @@
+{
+    "example0.com": {
+        "id": "e0",
+        "name": "example0",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100"
+    },
+    "example1.com": {
+        "id": "e1",
+        "name": "example1",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100"
+    },
+    "example2.com": {
+        "id": "e2",
+        "name": "example2",
+        "image": "https://picsum.photos/16",
+        "image_big": "https://picsum.photos/100"
+    }
+}
