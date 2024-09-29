@@ -1,5 +1,6 @@
 /// Represents a RealDebrid error.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Error {
     /// Error message
     #[serde(rename = "error")]

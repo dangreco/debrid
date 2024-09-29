@@ -1,5 +1,6 @@
 /// Represents a download from RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Download {
     /// Download ID
     pub id: String,

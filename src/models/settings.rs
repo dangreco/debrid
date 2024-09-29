@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 /// Represents a RealDebrid user's settings.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Settings {
     /// Possible "download_port" value to update settings
     pub download_ports: Vec<String>,

@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 /// Enum representing traffic information for limited RealDebrid hosters.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(tag = "type", rename_all = "lowercase")]
 pub enum Traffic {
     /// Traffic limited by links
@@ -47,6 +48,7 @@ pub enum Traffic {
 
 /// Enum representing the reset frequency of a hoster limit.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(rename_all = "lowercase")]
 pub enum Reset {
     Daily,

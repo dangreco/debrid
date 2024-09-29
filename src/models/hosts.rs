@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 /// Represents a RealDebrid host.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Host {
     /// RealDebrid host ID
     pub id: String,
@@ -15,6 +16,7 @@ pub struct Host {
 
 /// Represents status information of a RealDebrid host.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct HostInfo {
     /// RealDebrid host ID
     pub id: String,
@@ -37,6 +39,7 @@ pub struct HostInfo {
 
 /// Represents the status information of a RealDebrid competitor host.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct CompetitorInfo {
     /// Status of the competitor host
     pub status: HostStatus,
@@ -46,6 +49,7 @@ pub struct CompetitorInfo {
 
 /// Represents the current status of a RealDebrid host.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(rename_all = "snake_case")]
 pub enum HostStatus {
     Up,

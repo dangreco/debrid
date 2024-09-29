@@ -4,6 +4,7 @@ use crate::de::*;
 
 /// Represents transcode information for a RealDebrid file.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Transcode {
     /// M3U8 Live Streaming format
     pub apple: HashMap<String, String>,
@@ -19,6 +20,7 @@ pub struct Transcode {
 
 /// Represents media info for a RealDebrid file.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct MediaInfo {
     /// Cleaned filename
     pub filename: String,
@@ -67,6 +69,7 @@ pub struct MediaInfo {
 
 /// Represents track information.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct MediaDetails {
     /// Video tracks
     #[serde(deserialize_with = "hashmap_or_array_to_hashmap")]
@@ -81,6 +84,7 @@ pub struct MediaDetails {
 
 /// Represents video track information.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct VideoTrack {
     /// Stream ID of the track
     pub stream: String,
@@ -100,6 +104,7 @@ pub struct VideoTrack {
 
 /// Represents audio track information.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct AudioTrack {
     /// Stream ID of the track
     pub stream: String,
@@ -117,6 +122,7 @@ pub struct AudioTrack {
 
 /// Represents subtitle track information.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct SubtitleTrack {
     /// Stream ID of the track
     pub stream: String,
@@ -131,6 +137,7 @@ pub struct SubtitleTrack {
 
 /// Represents available stream formats.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct AvailableFormats {
     /// M3U8 Live Streaming format
     pub apple: String,
@@ -146,6 +153,7 @@ pub struct AvailableFormats {
 
 /// Enum representing the type of a media file.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(rename_all = "lowercase")]
 pub enum MediaType {
     Movie,

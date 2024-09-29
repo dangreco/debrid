@@ -1,5 +1,6 @@
 /// Represents an unrestrict/downloadable check on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Check {
     /// Host main domain
     pub host: String,
@@ -20,6 +21,7 @@ pub struct Check {
 
 /// Represents an unrestricted link on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Link {
     /// RealDebrid link ID
     pub id: String,
@@ -55,6 +57,7 @@ pub struct Link {
 
 /// Represents an alternate download link on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct AlternativeLink {
     /// RealDebrid link ID
     pub id: String,

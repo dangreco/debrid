@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 /// Represents a RealDebrid torrent.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct Torrent {
     /// RealDebrid torrent ID
     pub id: String,
@@ -33,6 +34,7 @@ pub struct Torrent {
 
 /// Enum representing the current status of a RealDebrid torrent.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(rename_all = "snake_case")]
 pub enum TorrentStatus {
     MagnetError,
@@ -50,6 +52,7 @@ pub enum TorrentStatus {
 
 /// Represents information of a RealDebrid torrent.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct TorrentInfo {
     /// RealDebrid torrent ID
     pub id: String,
@@ -87,6 +90,7 @@ pub struct TorrentInfo {
 
 /// Represents a file of a RealDebrid torrent.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct TorrentFile {
     /// RealDebrid torrent file ID
     pub id: u64,
@@ -105,6 +109,7 @@ pub type InstantAvailability = HashMap<String, Vec<HashMap<String, InstantlyAvai
 
 /// Represents an instantly available file on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct InstantlyAvailableFile {
     /// Filename
     pub filename: String,
@@ -114,6 +119,7 @@ pub struct InstantlyAvailableFile {
 
 /// Represents the active torrent count on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct ActiveCount {
     /// Number of currently active torrents
     pub nb: u64,
@@ -125,6 +131,7 @@ pub struct ActiveCount {
 
 /// Represents an availble torrent host on RealDebrid.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct AvailableHost {
     /// Host main domain
     pub host: String,
@@ -133,6 +140,7 @@ pub struct AvailableHost {
 }
 
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct AddedTorrent {
     /// RealDebrid torrent ID
     pub id: String,

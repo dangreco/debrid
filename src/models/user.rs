@@ -1,5 +1,6 @@
 /// Represents a RealDebrid user.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 pub struct User {
     /// RealDebrid user ID
     pub id: i64,
@@ -24,6 +25,7 @@ pub struct User {
 
 /// Enum representing the type of user.
 #[derive(Debug, Clone, serde::Serialize, serde::Deserialize)]
+#[cfg_attr(feature = "utoipa", derive(utoipa::ToSchema))]
 #[serde(rename_all = "snake_case")]
 pub enum Type {
     Free,
